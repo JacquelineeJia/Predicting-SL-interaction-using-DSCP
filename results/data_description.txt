@@ -1,0 +1,11 @@
+Each folder contains the results from all the algorithms evaluated on that dataset. The format of the data inside each algorithms folder (ie. merick/dtf/)is as follows:
+
+- checkpoint, weights.data, weights.index are the saved model weights
+
+- optimal_params.npy are alist of the optimal hyperparameters
+
+- trials_df.csv are a list of the results of the 100 hyperparameter optimization trials 
+
+- y_test.npy and y_test_pred.npy are the ground truth synergy values and the algorithms predictions for the testing set
+
+- y_train.npy and y_train_pred.npy are the ground truth synergy values and the algorithms predictions for the training set
