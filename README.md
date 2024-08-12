@@ -7,3 +7,5 @@
 `Results` contains the saved model weights, optimal hyperparameters, and model predictions for each model on each dataset
 
 `Methods` has `Models` and `Trainers` which contain all the model code as well as training and testing scripts
+
+For the conda envioroment setup, please email jacqueline.jia@mail.utoronto.ca for further instruction.
